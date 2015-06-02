@@ -28,6 +28,7 @@
     
     self.titulo.text = self.mtitulo;
     self.descripcion.text = self.mdescripcion;
+    
     self.imagen.image = [UIImage imageNamed:self.mimagen];
     self.imagen.contentMode = UIViewContentModeScaleAspectFit;
 }

@@ -26,8 +26,8 @@
     [super viewDidLoad];
     
     _imagenes = @[@"a.jpg",@"b.jpg",@"c.jpg",@"e.jpg",@"d.jpg"];
-    _titulos = @[@"TITA",@"TITB",@"TITC",@"TITD",@"TITD"];
-    _descripciones = @[@"DESA",@"DESB",@"DESC",@"DESD",@"DESD"];
+    _titulos = @[@"Creative PMG",@"Jalapeño Restaurant",@"Disco móvil Extrema",@"Latino PMG",@"Super Tienda Xela"];
+    _descripciones = @[@"Desarrollo Web - Mobile",@"Restaurant",@"Disco",@"Servicio Tecnico",@"Super Tienda"];
     
     mediaplayer = [self player];
     self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];

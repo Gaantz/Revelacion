@@ -10,4 +10,13 @@
 
 @interface PageItemViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imagen;
+@property (weak, nonatomic) IBOutlet UILabel *titulo;
+@property (weak, nonatomic) IBOutlet UILabel *descripcion;
+
+@property NSString *mimagen;
+@property NSString *mtitulo;
+@property NSString *mdescripcion;
+@property NSUInteger mindex;
+
 @end

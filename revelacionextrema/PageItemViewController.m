@@ -14,15 +14,29 @@
 
 @implementation PageItemViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.titulo.text = self.mtitulo;
+    self.descripcion.text = self.mdescripcion;
+    self.imagen.image = [UIImage imageNamed:self.mimagen];
+    self.imagen.contentMode = UIViewContentModeScaleAspectFit;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
 #pragma mark - Navigation

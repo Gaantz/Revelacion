@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-revelacionextrema-AFNetworking.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-revelacionextrema-AUMediaPlayer-AUMediaPlayer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-revelacionextrema-AUMediaPlayer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-revelacionextrema.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>844D0C1A4D2763EFC7FC9FC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA8C35AFCF249D47BBD9FD38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDCBEEF219088E2A91560EF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F688CEB331DCBA6526AFEC13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

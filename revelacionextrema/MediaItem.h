@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AUMediaPlayer/AUMediaPlayer.h>
 
-@interface MediaItem : AUMediaItem
+@interface MediaItem : NSObject <AUMediaItem>
+
+@property (nonatomic, strong) NSString *uid;
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *author;
+@property (nonatomic, strong) NSString *remotePath;
+@property (nonatomic, strong) NSString *fileTypeExtension;
 
 @end

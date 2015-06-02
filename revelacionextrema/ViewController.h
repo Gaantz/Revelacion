@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPageViewControllerDataSource>
 
+- (IBAction)startPlayer:(id)sender;
+@property (strong, nonatomic) UIPageViewController *pageViewController;
+
+@property (strong, nonatomic) NSArray *imagenes;
+@property (strong, nonatomic) NSArray *titulos;
+@property (strong, nonatomic) NSArray *descripciones;
 
 @end
 
